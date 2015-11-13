@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Media Center! - Movies</title>
+
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="static/base.css">
+    <script src="static/movies.js"></script>
+</head>
+<body>
+<!-- Trailer Video Modal -->
+<div class="modal fade" id="trailerModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span></button>
+                <h4 class="modal-title" id="modal-movie-title"></h4>
+            </div>
+            <div class="modal-body">
+                <div align="center" class="embed-responsive embed-responsive-16by9">
+                    <iframe width="100%" height="100%" frameborder="0" allowfullscreen="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Main Page Content -->
+<div class="container">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Favorite Media Center</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-md-4 movie-tile text-center">
+        <img src="https://image.tmdb.org/t/p/original/agy8DheVu5zpQFbXfAdvYivF2FU.jpg" width="220" height="342" alt="Toy Story Poster" data-movie-title="Toy Story" data-youtube-id="KYz2wyBy3kc" data-toggle="modal" data-target="#trailerModal">
+        <h4>Toy Story (1995)   <button type="button" class="btn btn-xs movie-info-btn" data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover" title="Storyline" data-content="Woody the cowboy is young Andy's favorite toy. Yet this changes when Andy get the new super toy Buzz Lightyear for his birthday. Now that Woody is no longer number one he plans his revenge on Buzz." aria-hidden="true"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></button></h4>
+    </div>
+<div class="col-sm-6 col-md-4 movie-tile text-center">
+        <img src="https://image.tmdb.org/t/p/original/w5sruoTQ87PFAGRJQyyaCOM1C4A.jpg" width="220" height="342" alt="Natural Born Killers Poster" data-movie-title="Natural Born Killers" data-youtube-id="XpLKNclOtLg" data-toggle="modal" data-target="#trailerModal">
+        <h4>Natural Born Killers (1995)   <button type="button" class="btn btn-xs movie-info-btn" data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover" title="Storyline" data-content="Two victims of traumatized childhoods become lovers and psychopathic serial murderers irresponsibly glorified by the mass media." aria-hidden="true"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></button></h4>
+    </div>
+<div class="col-sm-6 col-md-4 movie-tile text-center">
+        <img src="https://image.tmdb.org/t/p/original/fct7n9V10E8t8a7wOR90Ccw0i48.jpg" width="220" height="342" alt="Old Boy Poster" data-movie-title="Old Boy" data-youtube-id="mNgyOueZIEo" data-toggle="modal" data-target="#trailerModal">
+        <h4>Old Boy (2003)   <button type="button" class="btn btn-xs movie-info-btn" data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover" title="Storyline" data-content="Oldboy is the revenge drama from Director Park Chan-wook. Based on a manga by Nobuaki Minegishi, it depicts the suffering path of a man who must deal with the never ending torment of having unknowingly made someone his enemy." aria-hidden="true"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></button></h4>
+    </div>
+<div class="col-sm-6 col-md-4 movie-tile text-center">
+        <img src="https://image.tmdb.org/t/p/original/AoGpqw4S4ZGgwhlM3FgzFVwyIGl.jpg" width="220" height="342" alt="V for Vendetta Poster" data-movie-title="V for Vendetta" data-youtube-id="qxyUl9M_7vc" data-toggle="modal" data-target="#trailerModal">
+        <h4>V for Vendetta (2006)   <button type="button" class="btn btn-xs movie-info-btn" data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover" title="Storyline" data-content="In a world in which Great Britain has become a fascist state, a masked vigilante known only as 'V' conducts guerrilla warfare against the oppressive British government. When 'V' rescues a young woman from the secret police, he finds in her an ally with whom he can continue his fight to free the people of Britain." aria-hidden="true"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></button></h4>
+    </div>
+<div class="col-sm-6 col-md-4 movie-tile text-center">
+        <img src="https://image.tmdb.org/t/p/original/8PD1dgf0kQHtRawoSxp1jFemI1q.jpg" width="220" height="342" alt="The Good, the Bad and the Ugly Poster" data-movie-title="The Good, the Bad and the Ugly" data-youtube-id="WCN5JJY_wiA" data-toggle="modal" data-target="#trailerModal">
+        <h4>The Good, the Bad and the Ugly (1966)   <button type="button" class="btn btn-xs movie-info-btn" data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover" title="Storyline" data-content="While the Civil War rages between the Union and the Confederacy, three men - a quiet loner, a ruthless hit man and a Mexican bandit - comb the American Southwest in search of a strongbox containing $200,000 in stolen gold." aria-hidden="true"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></button></h4>
+    </div>
+<div class="col-sm-6 col-md-4 movie-tile text-center">
+        <img src="https://image.tmdb.org/t/p/original/dGcIsUfeatHYqgp9gX6KOcYT427.jpg" width="220" height="342" alt="Donnie Darko Poster" data-movie-title="Donnie Darko" data-youtube-id="ZZyBaFYFySk" data-toggle="modal" data-target="#trailerModal">
+        <h4>Donnie Darko (2001)   <button type="button" class="btn btn-xs movie-info-btn" data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover" title="Storyline" data-content="A troubled teenager is plagued by visions of a large bunny rabbit that manipulates him to commit a series of crimes, after narrowly escaping a bizarre accident." aria-hidden="true"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></button></h4>
+    </div>
+<div class="col-sm-6 col-md-4 movie-tile text-center">
+        <img src="https://image.tmdb.org/t/p/original/2tgl9q3ZaVQUfSsbftqhRxXCElB.jpg" width="220" height="342" alt="Moon Poster" data-movie-title="Moon" data-youtube-id="twuScTcDP_Q" data-toggle="modal" data-target="#trailerModal">
+        <h4>Moon (2009)   <button type="button" class="btn btn-xs movie-info-btn" data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover" title="Storyline" data-content="With only three weeks left in his three year contract, Sam Bell is getting anxious to finally return to Earth. He is the only occupant of a Moon-based manufacturing facility along with his computer and assistant, GERTY. The long period of time alone however has resulted in him talking to himself for the most part, or to his plants. Direct communication with Earth is not possible due to a long-standing communication malfunction but he does get an occasional message from his wife Tess. When he has an accident however, he wakens to find that he is not alone. He also comes to realize that his world is not what he thought it was." aria-hidden="true"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></button></h4>
+    </div>
+<div class="col-sm-6 col-md-4 movie-tile text-center">
+        <img src="https://image.tmdb.org/t/p/original/gZ6i32Da76EUxta06GL2BxpC4Cn.jpg" width="220" height="342" alt="Children of Men Poster" data-movie-title="Children of Men" data-youtube-id="2VT2apoX90o" data-toggle="modal" data-target="#trailerModal">
+        <h4>Children of Men (2006)   <button type="button" class="btn btn-xs movie-info-btn" data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover" title="Storyline" data-content="In 2027, in a chaotic world in which humans can no longer procreate, a former activist agrees to help transport a miraculously pregnant woman to a sanctuary at sea, where her child's birth may help scientists save the future of humankind." aria-hidden="true"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></button></h4>
+    </div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+---
+# Poster URLs - https://image.tmdb.org/t/p/original/
+# Trailer URLs - https://www.youtube.com/watch?v=
+movies:
+    -
+      title: Toy Story
+      storyline: "Woody the cowboy is young Andy's favorite toy. Yet this changes when Andy get the new super toy Buzz Lightyear for his birthday. Now that Woody is no longer number one he plans his revenge on Buzz."
+      poster_id: "agy8DheVu5zpQFbXfAdvYivF2FU.jpg"
+      trailer_id: "KYz2wyBy3kc"
+      year: 1995
+    -
+      title: Natural Born Killers
+      storyline: "Two victims of traumatized childhoods become lovers and psychopathic serial murderers irresponsibly glorified by the mass media."
+      poster_id: "w5sruoTQ87PFAGRJQyyaCOM1C4A.jpg"
+      trailer_id: "XpLKNclOtLg"
+      year: 1995
+    -
+      title: Old Boy
+      storyline: "Oldboy is the revenge drama from Director Park Chan-wook. Based on a manga by Nobuaki Minegishi, it depicts the suffering path of a man who must deal with the never ending torment of having unknowingly made someone his enemy."
+      poster_id: "fct7n9V10E8t8a7wOR90Ccw0i48.jpg"
+      trailer_id: "mNgyOueZIEo"
+      year: 2003
+    -
+      title: V for Vendetta
+      storyline: "In a world in which Great Britain has become a fascist state, a masked vigilante known only as 'V' conducts guerrilla warfare against the oppressive British government. When 'V' rescues a young woman from the secret police, he finds in her an ally with whom he can continue his fight to free the people of Britain."
+      poster_id: "AoGpqw4S4ZGgwhlM3FgzFVwyIGl.jpg"
+      trailer_id: "qxyUl9M_7vc"
+      year: 2006
+    -
+      title: "The Good, the Bad and the Ugly"
+      storyline: "While the Civil War rages between the Union and the Confederacy, three men - a quiet loner, a ruthless hit man and a Mexican bandit - comb the American Southwest in search of a strongbox containing $200,000 in stolen gold."
+      poster_id: "8PD1dgf0kQHtRawoSxp1jFemI1q.jpg"
+      trailer_id: "WCN5JJY_wiA"
+      year: 1966
+    -
+      title: Donnie Darko
+      storyline: "A troubled teenager is plagued by visions of a large bunny rabbit that manipulates him to commit a series of crimes, after narrowly escaping a bizarre accident."
+      poster_id: "dGcIsUfeatHYqgp9gX6KOcYT427.jpg"
+      trailer_id: "ZZyBaFYFySk"
+      year: 2001
+    -
+      title: Moon
+      storyline: "With only three weeks left in his three year contract, Sam Bell is getting anxious to finally return to Earth. He is the only occupant of a Moon-based manufacturing facility along with his computer and assistant, GERTY. The long period of time alone however has resulted in him talking to himself for the most part, or to his plants. Direct communication with Earth is not possible due to a long-standing communication malfunction but he does get an occasional message from his wife Tess. When he has an accident however, he wakens to find that he is not alone. He also comes to realize that his world is not what he thought it was."
+      poster_id: "2tgl9q3ZaVQUfSsbftqhRxXCElB.jpg"
+      trailer_id: "twuScTcDP_Q"
+      year: 2009
+    -
+      title: Children of Men
+      storyline: "In 2027, in a chaotic world in which humans can no longer procreate, a former activist agrees to help transport a miraculously pregnant woman to a sanctuary at sea, where her child's birth may help scientists save the future of humankind."
+      poster_id: "gZ6i32Da76EUxta06GL2BxpC4Cn.jpg"
+      trailer_id: "2VT2apoX90o"
+      year: 2006
