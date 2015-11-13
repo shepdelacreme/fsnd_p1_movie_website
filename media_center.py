@@ -5,8 +5,11 @@ import os
 from jinja2 import Environment, FileSystemLoader
 
 
-class MediaCenter():
-
+class MediaCenter(object):
+    """
+    Media Center Class grabs the media data and
+    builds an html page from templates displaying the data
+    """
     def __init__(self, datafile="data/media.yml"):
         # Open the input media yaml file and process it
         with open(datafile, 'r') as f:
@@ -25,10 +28,10 @@ class MediaCenter():
             webbrowser.open('file://' + os.path.realpath(page))
 
     def get_media(self, mediatype):
-        '''
+        """
         Loop through the list of media from the
         yaml file and return a list of objects
-        '''
+        """
         # Placeholder list for media items
         items = []
         # Loop through the list
@@ -40,10 +43,10 @@ class MediaCenter():
         return items
 
     def render_pages(self):
-        '''
+        """
         Render all the various pages we need for the site
         and return the list of files
-        '''
+        """
         # Placeholder for list of files
         rendered_pages = []
         # Make sure the media data file contained a movies section

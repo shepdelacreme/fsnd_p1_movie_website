@@ -1,4 +1,8 @@
-class Movie():
+class Movie(object):
+    """
+    Movie Class holds all the necessary
+    pieces of data for a movie
+    """
     # Poster base url to pull image from
     POSTER_URL = "https://image.tmdb.org/t/p/original/"
 
@@ -15,5 +19,5 @@ class Movie():
         print("Title: " + self.title)
         print("Storyline: " + self.storyline)
         print("Poster URL: " + self.POSTER_URL + self.poster_id)
-        print("Trailer URL: " + self.TRAILER_URL + self.trailer_id)
+        print("Trailer ID: " + self.trailer_id)
         print("Year: " + str(self.year))
